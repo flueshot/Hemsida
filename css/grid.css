@@ -1,0 +1,60 @@
+.grids-information {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #222;
+    padding: 20px;
+}
+
+.grid-object {
+    text-align: center;
+    width: 20%;
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.grid-object img {
+    width: 10%;
+    height: auto;
+}
+
+.grid-object h2{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+.grid-object p {
+    font-size: 14px;
+    font-style: inherit;
+}
+
+.bottom-icon a {
+    display: block;
+    margin-top: 5%;
+    transition: border 0.3s;
+    border: 2px solid transparent;
+}
+
+.bottom-icon img:hover{
+    border: 2px solid aqua;
+}
+
+.grid-object:nth-child(1) {
+    background-color: #262626;
+}
+
+
+.grid-object:nth-child(2) {
+    background-color: #262626;
+}
+
+
+.grid-object:nth-child(3) {
+    background-color: #262626;
+    border-radius:10px;
+}
