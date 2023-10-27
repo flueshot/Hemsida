@@ -58,3 +58,47 @@
     background-color: #262626;
     border-radius:10px;
 }
+
+
+.container-arbete {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.arbete-header {
+    font-size: 24px;
+}
+
+.arbete-object {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: transform 0.2s;
+}
+
+.arbete-object img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.large {
+    width: 60%;
+}
+
+.small {
+    width: 80%;
+}
+
+.arbete-object:hover {
+    transform: scale(1.1);
+}
+

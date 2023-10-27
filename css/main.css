@@ -45,9 +45,32 @@ nav ul li a{
     position: relative;
 }
 
-nav ul li a:hover{
-    border-radius: 1px solid aqua;
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    color: #fff;
 }
+
+.link a{
+    position: relative;
+    padding-bottom: 0.75rem;
+}
+.link a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+.link a:hover:after{
+    width: 80%;
+}
+
 .om-mig{
     width: 100%;
     background-color: #191919;
