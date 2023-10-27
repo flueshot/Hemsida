@@ -9,9 +9,9 @@ body{
     background-color: #191919;
     display: grid;
     min-height: 100vh;
-    grid-template-rows: 1fr auto;
-    
+    grid-template-rows: 1fr auto;    
 }
+
 main{
     flex-grow: 1;
 }
