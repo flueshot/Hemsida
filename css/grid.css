@@ -1,6 +1,6 @@
 .grids-information {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     background-color: #222;
     padding: 20px;
