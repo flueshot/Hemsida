@@ -1,164 +1,58 @@
-/* .grids-information {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #222;
-    padding: 20px;
-}
-
-.grid-object {
-   
-    text-align: center;
-    width: 20%;
-    margin: 5px;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-
-}
-
-.grid-object img {
-    width: 10%;
-    height: auto;
-}
-
-.grid-object h2{
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 100;
-    margin: 10px 0;
-}
-
-.grid-object p {
-    font-size: 14px;
-    font-style: inherit;
-}
-
-.bottom-icon a {
-    display: block;
-    margin-top: 5%;
-    transition: border 0.3s;
-    border: 2px solid transparent;
-}
-
-.bottom-icon img:hover{
-    border: 2px solid aqua;
-}
-
-.grid-object:nth-child(1) {
-    background-color: #262626;
-}
-
-
-.grid-object:nth-child(2) {
-    background-color: #262626;
-}
-
-
-.grid-object:nth-child(3) {
-    background-color: #262626;
-    border-radius:10px;
-}
-
-
-.container-arbete {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.arbete-header {
-    font-size: 24px;
-}
-
-.arbete-object {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    transition: transform 0.2s;
-}
-
-.arbete-object img {
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
-}
-
-.row {
-    display: flex;
-    justify-content: center;
-}
-
-.large {
-    width: 60%;
-}
-
-.small {
-    width: 80%;
-}
-
-.arbete-object:hover {
-    transform: scale(1.1);
-}
- */
-
-
- .containter-Box{
+.containter-Box{
     position: relative;
     width: 1200px;
-    height: 300px;
-    margin: 240px auto;
-    background: #000000;
+    margin: 0 auto;
+    padding-bottom: 20%;
+    background: #191919;
  }
  .containter-Box .box{
     position: relative;
     width: calc(400px - 30px);
     height: calc(300px - 30px);
-    background: rgb(255, 251, 0);
+    background: #191919;
     float: left;
     margin: 15px;
     box-sizing: border-box;
+    text-align: center;
     overflow: hidden;
+    border-radius: 10px;
 }
-.containter-Box .box .icon{
+.containter-Box .box .icon {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: #ff1100;
+    background: aqua;
     transition: 0.5s;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; 
 }
-.containter-Box .box:hover .icon{
-    top: 20px;
-    left: calc(50% - 40px);
-    width: 80px/2;
-    height: 80px;
-    border-radius: 50%;
-}
-.containter-Box .box .icon img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 10%;
-    height: auto;
-    transform: translate(-50%, -50%);
+
+.containter-Box .box .icon .fa-solid {
     font-size: 80px;
     transition: 0.5s;
     color: #fff;
-}
-.containter-Box .box:hover .icon fa{
-    font-size: 80px;
-
+    border-radius: 50%; 
 }
 
+.containter-Box .box:hover .icon {
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+}
+
+.containter-Box .box:hover .icon .fa-solid {
+    font-size: 40px;
+}
 .containter-Box .box .content{
     position: absolute;
-    top: 100%;
+    top: 100px;
     height: calc(100% - 100px);
     text-align: center;
     padding: 20px;
@@ -173,7 +67,7 @@
 .containter-Box .box .content h3{
     margin: 0 0 10px;
     padding: 0;
-    color: #fff;
+    color: aqua;
     font-size: 24px;
 }
 .containter-Box .box .content p{
